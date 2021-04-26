@@ -30,4 +30,4 @@ def result():
         else:
             return render_template("dia+ve.html")
 
-app.run(port=1111, debug=True)
+app.run(port=1111, host='0.0.0.0')
